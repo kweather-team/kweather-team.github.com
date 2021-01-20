@@ -7,9 +7,12 @@ title: K.WEATHER 기술 블로그
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
+    {% if post.categories == baseurl || baseurl == '' %}
       <li style="padding: 5px;"><span>{{ post.date | date_to_string }}</span> &raquo; 
         <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
       </li>
+    {% else %}
+    {% endif %}
     {% endfor %}
   </ul>
 </div>
