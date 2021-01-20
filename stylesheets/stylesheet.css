@@ -453,7 +453,7 @@ header {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   background: #191970;
   border-bottom: solid 1px #191970;
-  background: #568ecf url(../images/main_logo.png) 0 0 repeat;
+  background-image:"../images/main_logo.png"
 }
 
 header h1 {
