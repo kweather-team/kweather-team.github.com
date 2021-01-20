@@ -1,12 +1,12 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "KimDongKi-Blog"
+  spec.name          = "Kweahter-Blog"
   spec.version       = "0.1.0"
   spec.authors       = ["Kim, DongKi"]
   spec.email         = ["kdkdongki1997@gmail.com"]
 
-  spec.summary       = %q{ㅣ김동기 개발자 기술블로그}
+  spec.summary       = %q{ㅣ케이웨더 기술 블로그}
   spec.homepage      = "https://github.com/kdkrkwhr"
   spec.license       = "MIT"
 
