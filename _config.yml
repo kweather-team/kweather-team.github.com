@@ -1,0 +1,26 @@
+# Setup
+name: 
+  Tec-Blog
+tagline: 
+  blog
+baseurl: 
+  "https://kweather-team.github.io"
+locale: 
+  "ko"
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: 
+  kramdown
+
+disqus_shortname: 'https-kweather-team-github-io'
+
+disqus-identifier: 
+  https-kweather-team-github-io
+
+comments:
+  disqus:
+    shortname: https-kweather-team-github-io
