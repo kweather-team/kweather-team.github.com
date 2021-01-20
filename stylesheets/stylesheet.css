@@ -478,7 +478,7 @@ header h2 {
 }
 
 .inner {
-  background-image: url("../images/main_logo.png");
+
   position: relative;
   width: 940px;
   margin: 0 auto;
@@ -535,7 +535,7 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
-  background-image: url("../images/main_logo_sub_kwt.png");
+  background: transparent url("../images/main_logo_sub_kwt.png") 0 0 no-repeat;
   /* background: transparent url(../images/main_logo_sub_kwt.png) 0 0 no-repeat; */
 }
 aside a.button {
@@ -544,7 +544,7 @@ aside a.button {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background-image: url("../images/main_logo_sub_kwt.png");
+  background: transparent url("../images/main_logo_sub_kwt.png") 0 0 no-repeat;
   /* background: transparent url(../images/main_logo_sub_kwt.png) 0 0 no-repeat; */
 }
 
